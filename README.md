@@ -5,4 +5,4 @@ The K-Tree clustering software is a collection k-tree related clustering libarie
 
 After seeing its the powerful ability in clustering big data, it was utilised to cluster satellite images to help with solving environment related problems.
 
-Currently, this repository is maintained by Eric Tang ([@DrEricTang](https://twitter.com/DrEricTang).
+Currently, this repository is maintained by Eric Tang ([@DrEricTang](https://twitter.com/DrEricTang)).
