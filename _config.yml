@@ -1,0 +1,11 @@
+name: "K-Tree Clustering Software"
+description: "K-tree"
+
+url: "http://localhost:4000"
+#url: "http://big-data-lab.github.io/K-Tree/"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+highlighter: pygments
