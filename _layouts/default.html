@@ -6,10 +6,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <link rel="stylesheet" href="/css/stylesheet.css" media="screen">
-  <link rel="stylesheet" href="/css/pygment_trac.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/pygment_trac.css">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="/js/script.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/js/script.js"></script>
 
   <title>K-tree</title>
   <meta name="description" content="K-Tree Clustering Software, including LMW tree - EM-tree, K-tree, k-means, TSVQ, repeated k-means, clustering, random projections, random indexing, hashing, bit signatures">
@@ -22,7 +22,7 @@
 
   <div class="wrapper">
     <header>
-      <h1 class="title">K-Tree Clustering Software</h1>
+      <h1 class="title">{{ page.title }}</h1>
     </header>
     
     <div class="container" id="container">
@@ -40,12 +40,7 @@
         
         <article class="markdown-body">
         
-		 <p>The K-Tree clustering software is a collection k-tree related clustering libaries and programs. It was forked from <a href="https://github.com/cmdevries/LMW-tree">LMW-tree</a> which was originally developed by Chris de Vries and Lance De Vine at QUT (Queensland University of Technology).</p>
-
-<p>After seeing its the powerful ability in clustering big data, it was utilised to cluster satellite images to help with solving environment related problems.</p>
-
-<p>Currently, this repository is maintained by Eric Tang (<a href="https://twitter.com/DrEricTang">@DrEricTang</a>).</p>
-
+		 {{ content }}
 		 
 		 </article>
 		 
