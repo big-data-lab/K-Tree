@@ -36,6 +36,8 @@ It is also required to use GCC 4.8+ or equivalents for K-Tree tool compiling.
 
    for Debian/Ubuntu/Linux Mints/Other Debian derivatives Linux users,
         <pre><code>$sudo apt-get install gdal*</code></pre>
+        
+   If you are using CentOS/RHEL 6.0, please read the [GDAL installation guide for CentOS 6](../centos/).
 
 ###   TBB<br/>
    Please visit their [website](http://www.threadingbuildingblocks.org) to download the latest version, but sometimes their new version won't be compiled by the compiler. In this case, you might need to choose an achieved version such as [tbb42_20140601oss](https://www.threadingbuildingblocks.org/sites/default/files/software_releases/linux/tbb43_20150316oss_lin.tgz).
