@@ -15,8 +15,9 @@ With the help and support from environmental scientists and government agencies,
 
 1.     Crop type and yield classification
 2.     Land cover change monitoring
-3.     Classifying gullies in the landscape
-4.     Others
+3.     Gullies classification in landscape
+4.     Hierarchical classification of segmented imagery for vegetation
+5.     Others
 
 Below are the detailed information regarding K-Tree clustering software compiling and usages:
 
