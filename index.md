@@ -3,7 +3,7 @@ title: K-Tree Clustering
 layout: post
 ---
 
-The K-Tree clustering software is a collection [K-tree](http://eprints.qut.edu.au/16976/1/k-tree.pdf) related clustering libraries and programs. K-tree itself is a "tree structured clustering algorithm" which was first published on a [paper](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=889418&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D889418) authored by A/Prof. Shlomo Geva @[QUT](http://www.qut.edu.au) (Queensland University of Technology). To refer K-tree clustering in your research work, please cite:  
+The K-Tree clustering software is a collection [K-tree](http://eprints.qut.edu.au/16976/1/k-tree.pdf) related clustering libraries and programs. K-tree itself is a "tree structured clustering algorithm" which was first published on a [paper](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=889418&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D889418) authored by Shlomo Geva @[QUT](http://www.qut.edu.au) (Queensland University of Technology). To refer K-tree clustering in your research work, please cite:  
 
 <cite>Geva, Shlomo. "K-tree: a height balanced tree structured vector quantizer." Neural Networks for Signal Processing X, 2000. Proceedings of the 2000 IEEE Signal Processing Society Workshop. Vol. 1. IEEE, 2000.</cite>
 
@@ -31,4 +31,4 @@ Below are the detailed information regarding K-Tree clustering software compilin
 - [List of K-Tree programs and their usages](list)
 - [More satellite image samples](sample-images)
 
-Currently, this repository is maintained by Dr. Eric Tang ([@DrEricTang](https://twitter.com/DrEricTang)) and Dr. Alan Woodley.
+Currently, this repository is maintained by Alan Woodley and Eric Tang ([@DrEricTang](https://twitter.com/DrEricTang)).
