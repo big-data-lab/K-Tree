@@ -23,7 +23,7 @@ Using the K-tree
 Other examples
 - [More satellite image samples](sample-images)
 
-Currently, this repository is maintained by Alan Woodley and Eric Tang ([@DrEricTang](https://twitter.com/DrEricTang)). It has partially been supported by the [Cooperative Research Centre for Spatial Information (CRCSI)](http://www.crcsi.com.au) . Satellite images have been provided as supplied from [Geoscience Australia](http://www.ga.gov.au/) under a Creative Commons Licence. 
+Currently, this repository is maintained by Alan Woodley and Eric Tang ([@DrEricTang](https://twitter.com/DrEricTang)). It has partially been supported by the [Cooperative Research Centre for Spatial Information (CRCSI)](http://www.crcsi.com.au) . Satellite images have been provided as supplied from [Geoscience Australia](http://www.ga.gov.au/) under a [Creative Commons Licence](http://creativecommons.org/licenses/by/3.0/au/). 
 
 
 
