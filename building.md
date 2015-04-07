@@ -15,7 +15,7 @@ For ***debug*** build:
 
     make
     
-If you want to use different directories for release build and debug build separately, you can use GNU autotools to do so:
+GNU autotools can be used to create separate directories for the release build and debug build.
 
 For ***release*** build:
 
