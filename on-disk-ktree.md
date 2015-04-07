@@ -3,8 +3,7 @@ title: On Disk K-Tree
 layout: post
 ---
 
-As in-memory K-tree is limited by the size of computer memory, we only can cluster the data that can be fit into the memory. So we implement on-disk K-tree which allow clustering on disk rather than in memory thereby, dramatically increasing the size of the dataset that can be classify.
-
+The size of the dataset that can be clustered for the in-memory K-tree is limited by the size of computer memory, which on most systems limits the dataset size to about 10-20 Terabytes. However, the on-disk K-tree preforms clustering on disk rather than in memory thereby, dramatically increasing the size of the dataset that can be clustered.
 
 
 /****************************************************************************************************************
