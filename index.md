@@ -11,14 +11,14 @@ The version of K-Tree software in this repository was derived and forked from [L
 After seeing K-tree's powerful ability in clustering big data it has now been applied to cluster and search spatial information. It has currently been applied to satellite images of Australia from NASA’s Landsat 5 and 7 archives; however, it can theoretically be used for any type of spatial information. The K-tree is able to identify patterns in the dataset and locate areas that are similar to each other, for example, identifying remaining salt from an evaporated salt lake. When applied to a time series it can identifying patterns in land use change, for example, land clearing. By doing so, the K-tree can be a useful tool for aiding environmental management.
 
 Below are the detailed information regarding K-tree clustering software compiling and usages:
-- Setting up the K-Tree
--- [Working environment](environment)
--- [Compiling the K-tree](building)
-- How to se the K-tree
--- [On-Disk K-tree](on-disk-ktree)
--- [List of K-Tree programs and their usages](list)
-- Other examples
--- [More satellite image samples](sample-images)
+Setting up the K-Tree
+- [Working environment](environment)
+- [Compiling the K-tree](building)
+How to se the K-tree
+- [On-Disk K-tree](on-disk-ktree)
+- [List of K-Tree programs and their usages](list)
+Other examples
+- [More satellite image samples](sample-images)
 
 Currently, this repository is maintained by Alan Woodley and Eric Tang ([@DrEricTang](https://twitter.com/DrEricTang)). It has partially been supported by the [Cooperative Research Centre for Spatial Information (CRCSI)](http://www.crcsi.com.au) . Satellite images have been provided as supplied from [Geoscience Australia](http://www.ga.gov.au/) under a Creative Commons Licence. 
 
