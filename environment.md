@@ -3,19 +3,19 @@ title: Working Environment
 layout: post
 ---
 
-The K-Tree clustering software prefers *NIX working environment, but it should also work on other platforms such as Windows.
-
+The K-tree software library has been written in C++. It has been tested on a *NIX working environment, but should also work on other platforms such as Windows. 
 
 Hardware
 ========
 
-In order to have decent clustering performance in term of accuracy, we need to cluster a large enough data set to produce a "converged" tree. To maintain such a big dynamic tree with constant node splitting, it requires all raw data have to be resided in memory. Therefore, to classify satellite images that cover large areas, we need a computer with huge amount of memory. For those lucky ones, with the help of a supercomputer that have [1.6 petabytes of memory](http://arstechnica.com/information-technology/2012/06/with-16-petaflops-and-1-6m-cores-doe-supercomputer-is-worlds-fastest/), building a big-enough-for-everything tree seems to be possible, however, not all researchers and application developers have the luxury to access such a supercomputer or the less powerful ones. So we simply use generic available high performance workstations provided by the major computer manufacturers for all our experiments.
-
-Generally for big data clustering with K-tree, we recommend workstation with memory size no less than 256GB. With this size of memory, we would be able to build an in-memory K-tree for about 120 GeoTiff images with a resolution of 4000x4000 pixels each. As suggested by one of the computer manufacturers, a workstation with 2TB of memory should be available at the end of 2015.
-
+K-tree has been designed to operate on affordable off-the-shelf workstations that cost between $5k and $10K. It has been tested on a server with 256GB memory, which allows for the equivalent of 2 billion pixels to be clustered (120 GeoTiff images from the Landsat 5 and 7 archives at 1 x 1 degree/4000 x 4000 pixel resolution). 
 
 Software
 ========
+
+- Compiling
+
+It is recommended to use GCC 4.8+ or equivalents to compile the K-tree source code.
 
 - Software dependencies
 
@@ -25,8 +25,6 @@ The K-tree library and programs relies on following third party libraries:
 2.  [Intel Theading Building Blocks](http://www.threadingbuildingblocks.org)
 3.  [GDAL](http://www.gdal.org/)
 4.  Java 8+ (optional) for a GUI tool plotting the k-tree search results
-
-It is also required to use GCC 4.8+ or equivalents for K-Tree tool compiling.
 
 - Third party libraries installation
 
